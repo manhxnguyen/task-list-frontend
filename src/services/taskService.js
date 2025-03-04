@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3002/api/v1';
+const API_URL = 'https://task-list-mo6j.onrender.com/api/v1/';
 
 export const taskService = {
   getTasks: async (filter) => {
